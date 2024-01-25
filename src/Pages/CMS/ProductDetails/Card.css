@@ -1,0 +1,10 @@
+  .card {
+    justify-content: flex-start; /* Align cards to the start on smaller screens */
+    gap: 10px; /* Reduce gap between cards for smaller screens */
+  }
+
+  .card > div {
+    width: 100%; /* Ensure cards take full width on smaller screens */
+    margin-bottom: 0; 
+    max-width: 100%; /* Allow cards to take full available width */
+  }

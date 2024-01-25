@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Raleway:wght@100&family=Tinos:wght@700&display=swap");
+
+.hero-offer{
+    background: #D3D3D399;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-offer h2{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #303132;
+    font-family: "Raleway", sans-serif;
+}
+.section-1-button {
+    color: #303132;
+    background: #ffffff;
+  /* color: #ffffff; */
+  padding: 10px 70px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; 
+  white-space: nowrap;
+}
+.about-txt {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #303132;
+  margin: 45px;
+   white-space: wrap;
+}
+hr {
+  width: 4%;
+  margin: auto;
+}
+.about-subtxt {
+  margin: 30px;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 6px;
+  color: #303132;
+  font-size: 18px;
+}
+.section-1-button:hover {
+   background-color: #303132;
+  color: #fff;
+}
+
+.section-2-heading{
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.translate-middle-y {
+  transition: transform 1s ease-out;
+  transform: translateY(-50%);
+}
+.section-2-div h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #d3d3d3;
+  letter-spacing: 3px;
+font-family: 'Tinos', serif;
+  font-size: 3.8rem;
+  white-space: nowrap;
+}
+
+.section-2-button {
+    background: #303132;
+  color: #ffffff;
+  padding: 10px 70px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; 
+  white-space: nowrap;
+}
+.section-2-button:hover {
+   color: #303132;
+  background-color: #fff;
+}
+
+
+/* ----------------------logo div section--------------------------- */
+
+/* Slider */
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.brand-slider-heading{
+  margin: 45px;
+}
+
+
+/* Add media queries for smaller screens */
+@media screen and (max-width: 767px) {
+  .section-2-div h1 {
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+
+  .section-2-button {
+    padding: 6px 20px;
+    /* margin: 15px; */
+    font-size: 12px;
+  }
+  .about-txt{
+    margin: 10px;
+  }
+    /* .about-txt{
+    margin: 25px;
+  } */
+  .about-subtxt{
+    margin: 30px;
+  }
+  hr{
+    width: 10%;
+  }
+  
+}
+

@@ -1,0 +1,107 @@
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.container-div {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.product {
+  background-color: #d3d3d3;
+  color: #000;
+  height: 480px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+.bold {
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.header {
+  height: 300px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background-color: rgb(83, 81, 81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 250px;
+  /* width: 176px; */
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.button {
+  background-color: rgb(83, 81, 81);
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.button:hover {
+  background-color: #fff;
+  color: #313131;
+  font-weight: 600;
+  /* border: 1px solid #313131; */
+}
+.section-2-div h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-family: "Gupter", serif;
+  font-size: 5rem;
+  white-space: nowrap;
+}
+.section-2-div h2 {
+  text-transform: capitalize;
+  font-family: Cambria, Cochin, serif;
+    color: #d3d3d3;
+}
+.section-2-div p{
+    font-weight: 300;
+    text-align: justify;
+    margin: 10px 30px;
+      color: #d3d3d3;
+}
+@media screen and (max-width: 767px) {
+  .section-2-div h1 {
+    font-size: 25px;
+    /* letter-spacing: 3px; */
+  }
+  .section-2-div h2 {
+    font-size: 15px;
+  }
+  .section-2-div p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}

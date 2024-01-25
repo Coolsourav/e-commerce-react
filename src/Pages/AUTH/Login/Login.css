@@ -1,0 +1,91 @@
+
+.login-bg{
+    height: 80vh;
+    flex-shrink: 0;
+    padding: 0;
+   /* background: linear-gradient(180deg, #FFF 31.21%, rgba(255, 255, 255, 0.00) 55.66%); */
+}
+.login-div{
+    height: 520px;
+    box-shadow: 0px 19px 40px 0px rgba(0, 0, 0, 0.05);
+
+}
+.login-div-left{
+ background-color: linear-gradient( rgba(255, 255, 255, 0.00) 55.66%);
+}
+
+.login-logo {
+  text-transform: uppercase;
+  color: #7d7b7b;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 5px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+.login-p{
+  color: rgba(0, 0, 0, 0.50);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; 
+letter-spacing: 0.48px;
+}
+.login-h1{
+color: #000;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.signinbtn{
+ border-radius: 23px;
+background: #F47458;
+color: #fff;
+  width: 150px;
+height: 40px;
+flex-shrink: 0;
+border: none
+  ;
+}
+label{
+  color: #000;  
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.form-control{
+ border-radius: 4px;
+background: #FFF6F4;
+}
+.form-control::placeholder {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bottom-p{
+  color: rgba(0, 0, 0, 0.20);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+letter-spacing: 0.48px;
+}
+.bottom-subp{
+  color: #F47458;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.48px;
+}
+
